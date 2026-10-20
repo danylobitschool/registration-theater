@@ -2,6 +2,8 @@
             body{
             background-image: url(collective-image.jpg);
             background-size: cover;
+            margin: 0px;
+            background-color: rgba(83, 7, 153, 0.829);
         }
         #title{
             width: 100%;
@@ -30,7 +32,7 @@
             justify-self: center;
         } 
         fieldset{
-            width: 90%;
+            width: 85%;
             color: rgb(247, 211, 9);
             background-color: rgba(45, 7, 80, 0.829);
             border-radius: 10px;
@@ -40,6 +42,12 @@
             background-color: rgba(45, 7, 80, 0.829);
             border-radius: 10px;
             font-size: 20px;
+        }
+        input{
+            max-width: 70%;
+        }
+        textarea{
+            max-width: 70%;
         }
         button{
             display: block;
