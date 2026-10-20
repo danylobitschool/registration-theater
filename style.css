@@ -18,6 +18,7 @@
             font-size: larger;
             justify-self: center;
             top: 0px;
+            margin-top: 0px;
         }
 
         #description{
@@ -48,12 +49,12 @@
             border-radius: 10px;
             font-size: 20px;
         }
-        input{
+        #name,#sname,#email,#number{
             background-color: rgba(188, 119, 252, 0.603);
-            max-width: 80%;
+            width: 90%;
         }
         textarea{
-            max-width: 70%;
+            width: 90%;
             background-color: rgba(188, 119, 252, 0.603);
         }
         button{
