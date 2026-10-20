@@ -4,6 +4,7 @@
             background-size: cover;
             margin: 0px;
             background-color: rgba(83, 7, 153, 0.829);
+            display: grid;
         }
         #title{ box-sizing: border-box;
             max-width: 500px;
